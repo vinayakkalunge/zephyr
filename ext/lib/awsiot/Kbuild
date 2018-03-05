@@ -1,0 +1,17 @@
+subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srcdir)/ext/lib/awsiot/include
+
+obj-y += src/aws_iot_json_utils.o
+obj-y += src/aws_iot_mqtt_client.o
+obj-y += src/aws_iot_mqtt_client_common_internal.o
+obj-y += src/aws_iot_mqtt_client_connect.o
+obj-y += src/aws_iot_mqtt_client_publish.o
+obj-y += src/aws_iot_mqtt_client_subscribe.o
+obj-y += src/aws_iot_mqtt_client_unsubscribe.o
+obj-y += src/aws_iot_mqtt_client_yield.o
+obj-y += src/aws_iot_shadow_actions.o
+obj-y += src/aws_iot_shadow.o
+obj-y += src/aws_iot_shadow_json.o
+obj-y += src/aws_iot_shadow_records.o
+
+# FIXME : Add platform specific things
+
