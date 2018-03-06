@@ -22,7 +22,7 @@
  * definition of the Timer struct. Platform specific
  */
 struct Timer {
-	struct timeval end_time;
+	int time;
 };
 
 #endif /* SRC_PROTOCOL_MQTT_AWS_IOT_EMBEDDED_CLIENT_WRAPPER_PLATFORM_LINUX_COMMON_TIMER_PLATFORM_H_ */

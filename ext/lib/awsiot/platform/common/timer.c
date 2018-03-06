@@ -44,5 +44,4 @@ void countdown_sec(Timer *timer, uint32_t timeout) {
 }
 
 void init_timer(Timer *timer) {
-	timer->end_time = (struct timeval) {0, 0};
 }

@@ -1,4 +1,9 @@
-subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srcdir)/ext/lib/awsiot/include
+subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srctree)/ext/lib/awsiot/include
+subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srctree)/ext/lib/awsiot/ext/jsmn
+subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srctree)/ext/lib/awsiot/platform/common
+subdir-ccflags-$(CONFIG_AWS_IOT_SDK) += -I$(srctree)/ext/lib/awsiot/platform/mbedtls
+
+obj-y += ext/jsmn/jsmn.o
 
 obj-y += src/aws_iot_json_utils.o
 obj-y += src/aws_iot_mqtt_client.o
@@ -15,3 +20,5 @@ obj-y += src/aws_iot_shadow_records.o
 
 # FIXME : Add platform specific things
 obj-y += platform/common/timer.o
+
+# For jsmn.o

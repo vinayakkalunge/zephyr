@@ -42,6 +42,14 @@ extern "C" {
 
 #include "aws_iot_log.h"
 
+#define SCNu8	"hhu"
+#define SCNu16	"hu"
+#define SCNu32	"lu"
+#define SCNi8	"hhi"
+#define SCNi16	"hi"
+#define SCNi32	"li"
+
+
 int8_t jsoneq(const char *json, jsmntok_t *tok, const char *s) {
 	if(tok->type == JSMN_STRING) {
 		if((int) strlen(s) == tok->end - tok->start) {
