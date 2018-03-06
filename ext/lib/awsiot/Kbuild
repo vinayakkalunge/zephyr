@@ -14,4 +14,4 @@ obj-y += src/aws_iot_shadow_json.o
 obj-y += src/aws_iot_shadow_records.o
 
 # FIXME : Add platform specific things
-
+obj-y += platform/common/timer.o
