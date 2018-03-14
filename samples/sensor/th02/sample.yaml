@@ -1,7 +1,0 @@
-sample:
-  name: TH02 Temperature and Humidity Monitor
-tests:
-  test:
-    harness: sensor
-    tags: samples sensor
-    depends_on: i2c

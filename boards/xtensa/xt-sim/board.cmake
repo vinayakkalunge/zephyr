@@ -1,1 +1,0 @@
-set(BOARD_DEBUG_RUNNER xtensa)

@@ -1,6 +1,0 @@
-add_subdirectory(crc)
-add_subdirectory_ifdef(CONFIG_JSON_LIBRARY          json)
-if(NOT CONFIG_NATIVE_APPLICATION)
-add_subdirectory(libc)
-endif()
-add_subdirectory_if_kconfig(ring_buffer)

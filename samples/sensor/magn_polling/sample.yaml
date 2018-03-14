@@ -1,7 +1,0 @@
-sample:
-  name: BMC150 Magnetometer Sample
-tests:
-  test:
-    harness: sensor
-    tags: samples
-    depends_on: i2c gpio

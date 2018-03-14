@@ -1,1 +1,0 @@
-zephyr_sources_ifdef(CONFIG_MAX44009 max44009.c)

@@ -1,2 +1,0 @@
-zephyr_sources_ifdef(CONFIG_BMC150_MAGN bmc150_magn.c)
-zephyr_sources_ifdef(CONFIG_BMC150_MAGN_TRIGGER bmc150_magn_trigger.c)

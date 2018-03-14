@@ -1,9 +1,0 @@
-identifier: nucleo_l476rg
-name: NUCLEO-L476RG
-type: mcu
-arch: arm
-toolchain:
-  - zephyr
-  - gccarmemb
-supported:
-  - pwm

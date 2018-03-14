@@ -1,7 +1,0 @@
-identifier: nucleo_l432kc
-name: NUCLEO-L432KC
-type: mcu
-arch: arm
-toolchain:
-  - zephyr
-  - gccarmemb

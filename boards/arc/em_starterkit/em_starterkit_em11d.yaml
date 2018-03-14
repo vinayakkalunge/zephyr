@@ -1,6 +1,0 @@
-identifier: em_starterkit_em11d
-name: EM Starterkit EM11D
-type: mcu
-arch: arc
-toolchain:
-  - zephyr
